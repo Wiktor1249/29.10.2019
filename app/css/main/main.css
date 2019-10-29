@@ -105,6 +105,23 @@
     margin: 10px 20px;
 }
 
+@media all and (max-width: 992px) {
+    #form-main {
+        width: 50%;
+        margin: 0 auto;
+        top: 220px;
+        left: 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #form-main {
+        width: 100%;
+        top: 220px;
+        left: 0;
+    }
+}
+
 #footer {
     color: white;
     background-color: #292929;
