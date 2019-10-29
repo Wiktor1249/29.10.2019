@@ -1,0 +1,47 @@
+@import '../variables';
+
+#form-main{
+    position: relative;
+    width: 20%;
+    top: 120px;
+    left: 55%;
+    
+    h2{
+        color: $fontcolor;
+        font-size: 20px;
+        span{
+            color: $spancolor;
+        }
+    }
+    #form{
+        background-color: #001d8a;
+        padding: 20px 0;
+        h3{
+            color: $fontcolor;
+            width: 95%;
+            margin: 0 auto;
+        }
+        input,
+        textarea{
+            display: block;
+            width: 90%;
+            margin: 10px auto;
+            box-sizing: border-box;
+            padding: 10px;
+            // margin: 10px ;
+        }
+        textarea{
+            height: 65px;
+        }
+        input[type=submit]{
+            width: auto;
+            color: black;
+            padding: 20px;
+            background-color: #ecd407;
+            font-weight: bold;
+            font-size: 1rem;
+            border: none;
+            margin: 10px 20px;
+        }
+    }
+}

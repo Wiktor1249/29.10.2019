@@ -1,0 +1,46 @@
+@import '../mixin';
+@import '../variables';
+
+#nav-main{
+    @include spaceBeetwenFlex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+        .logo{
+            font-size: 2rem;
+            color: $fontcolor;
+            font-weight: 700;
+            i{
+                color: $spancolor;
+                font-weight: 700;
+            }
+        }
+        .number{
+            display: flex;
+            flex-wrap: nowrap;
+                i{
+                    font-size: 1.8rem;
+                    color: $fontcolor;
+                    margin-top: 6px;
+                    margin-right: 8px;
+                    padding: 0
+                }
+                .call{
+                    
+                    color: $fontcolor;
+                    p{
+                        font-size: 10px;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    p{
+                        font-size: 15px;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+        }
+    
+}

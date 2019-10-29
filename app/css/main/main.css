@@ -1,0 +1,142 @@
+#section {
+    background-image: url("../../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 280px;
+}
+
+#nav-main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#nav-main .logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+#nav-main .logo i {
+    color: #ecd407;
+    font-weight: 700;
+}
+
+#nav-main .number {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#nav-main .number i {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 6px;
+    margin-right: 8px;
+    padding: 0;
+}
+
+#nav-main .number .call {
+    color: white;
+}
+
+#nav-main .number .call p {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-main .number .call p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#form-main {
+    position: relative;
+    width: 20%;
+    top: 120px;
+    left: 55%;
+}
+
+#form-main h2 {
+    color: white;
+    font-size: 20px;
+}
+
+#form-main h2 span {
+    color: #ecd407;
+}
+
+#form-main #form {
+    background-color: #001d8a;
+    padding: 20px 0;
+}
+
+#form-main #form h3 {
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#form-main #form input,
+    #form-main #form textarea {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#form-main #form textarea {
+    height: 65px;
+}
+
+#form-main #form input[type=submit] {
+    width: auto;
+    color: black;
+    padding: 20px;
+    background-color: #ecd407;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    margin: 10px 20px;
+}
+
+#footer {
+    color: white;
+    background-color: #292929;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#footer .telnumber,
+  #footer .message {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#footer .telnumber i,
+    #footer .message i {
+    background-color: #e6cf04e0;
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+
+#footer p {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}

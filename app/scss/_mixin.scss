@@ -1,0 +1,11 @@
+@mixin spaceBeetwenFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@mixin spaceAroundFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
